@@ -1,0 +1,51 @@
+.footer-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ 
+ .footer-grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     place-items: end center;
+ }
+ 
+ .logo-footer {
+     place-self: start;
+ }
+ 
+ .developed {
+     font: 600 1rem/1.125 "Roboto", sans-serif;
+ }
+ 
+ .icon-insta {
+     place-self: end;
+ }
+ 
+ @media (max-width: 900px) {
+	.footer-container {
+		max-width: 780px;
+	}
+}
+
+@media (max-width: 450px) {
+	.footer-container {
+		max-width: 450px;
+	}
+	
+	.footer-grid {
+		grid-template-columns: 1fr;
+		gap: 40px;
+		place-items: center;
+	}
+	
+	.logo-footer {
+		place-self: center;
+	}
+
+	.icon-insta {
+		place-self: end center;
+	}
+}

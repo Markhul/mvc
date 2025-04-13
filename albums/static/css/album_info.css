@@ -1,0 +1,121 @@
+.album-details{
+	max-width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	background-color: var(--cor-11);
+	border: 2px solid var(--cor-p3);
+	border-radius: 0 0 10px 10px;
+	box-shadow: 2px 4px 4px rgba(0,0,0,0.5);
+}
+
+.album-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cover-detail {
+	padding: 20px 0 0 20px;
+}
+
+.album-tracks {
+	font: 600 1rem/1.5 "Roboto", sans-serif;
+	color: var(--cor-p1);
+	padding-top: 40px;
+	margin-right: 20px;
+}
+
+.tracks{
+	font: 400 1rem/1.5 "Roboto", sans-serif;
+	color: var(--cor-2);
+	margin:0;
+}
+
+.album-lineup {
+	font: 600 1rem/1.5 "Roboto", sans-serif;
+	color: var(--cor-p1);
+	padding-top: 40px;
+	padding-right: 40px;
+ 	margin-left: 20px;
+}
+
+.lineup {
+	font: 400 1rem/1.5 "Roboto", sans-serif;
+	color: var(--cor-2);
+	margin: 0;
+}
+
+.album-notes {
+	font: 400 0.875rem/1.125 "Roboto", sans-serif;
+	color: var(--cor-5);
+	padding: 40px 0 30px 20px;
+}
+.grid-btn {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+@media (max-width: 900px) {
+	.album-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+}
+	.album-tracks {
+		padding-left: 0px;
+		padding-right: 10px;
+}
+	.album-lineup {
+		padding-top: 20px;
+		padding-left: 0px;
+		justify-self: start;
+}
+	}
+	
+@media (max-width: 450px) {
+	.album-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+}
+	.album-tracks {
+		padding-left: 20px;
+		padding-right: 20px;
+}
+	.album-lineup {
+		padding-top: 20px;
+		padding-left: 0px;
+		justify-self: start;
+}
+
+	.cover-detail {
+		padding: 20px 0 0 0;
+		justify-self: center;
+	}
+	
+	.album-notes {
+	font: 400 0.875rem/1.125 "Roboto", sans-serif;
+	color: var(--cor-5);
+	padding: 40px 20px 30px 20px;
+}
+
+.sub-title-album{
+	font: 400 1.2rem/1.65 "Kumar One", serif;
+	color: var(--cor-4);
+	text-shadow: 2px 4px 4px rgba(0,0,0,0.7);
+}
+
+.main-title-album {
+	font: 400 1.5rem/1.65 "Kumar One", serif;
+	color: var(--cor-1);
+	text-shadow: 2px 4px 4px rgba(0,0,0,0.7);
+	padding-top: 60px;
+}
+
+.album-tracks {
+	font: 400 0.9rem/1.125 "Roboto", sans-serif;
+}
+
+.album-lineup {
+	font: 400 0.9rem/1.125 "Roboto", sans-serif;
+	padding-top: 40px;
+}
+}

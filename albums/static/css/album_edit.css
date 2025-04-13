@@ -1,0 +1,28 @@
+
+.main-container-edit {
+    display: grid;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 0;
+}
+
+.form-edit {
+    margin-top: 20px;
+}
+  
+.form.edit input, input[name="album"], input[type="number"], label, textarea {
+    padding: 6px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 8px;
+}
+
+.form.edit select, select[name="genre"], select[name="band_name"] {
+    padding: 6px;
+    width: 100%;
+    max-width: 315px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,11 @@
+.band-details {
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .band-bio {
+    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+    color: var(--cor-2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);;
+  }
